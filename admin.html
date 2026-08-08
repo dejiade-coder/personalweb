@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Admin | Adegbite Oladimeji</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <aside class="admin-sidebar">
+        <a class="admin-brand" href="index.html">
+          <span>AO</span>
+          <strong>Portfolio Admin</strong>
+        </a>
+        <nav>
+          <a href="#content">Content</a>
+          <a href="#projects">Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="index.html">View Site</a>
+        </nav>
+      </aside>
+
+      <section class="admin-main">
+        <header class="admin-top">
+          <div>
+            <p class="eyebrow">Editable website dashboard</p>
+            <h1>Update your portfolio like a CMS</h1>
+          </div>
+          <button class="save-button" type="button" data-save>Save Changes</button>
+        </header>
+
+        <p class="status" data-status>Loading website content...</p>
+
+        <section class="panel" id="content">
+          <h2>Hero and About</h2>
+          <div class="field-grid">
+            <label>
+              Hero eyebrow
+              <input data-path="hero.eyebrow" />
+            </label>
+            <label>
+              Hero title
+              <input data-path="hero.title" />
+            </label>
+          </div>
+          <label>
+            Hero intro
+            <textarea rows="4" data-path="hero.lead"></textarea>
+          </label>
+          <label>
+            About heading
+            <textarea rows="3" data-path="about.heading"></textarea>
+          </label>
+          <label>
+            About paragraph 1
+            <textarea rows="4" data-path="about.paragraphs.0"></textarea>
+          </label>
+          <label>
+            About paragraph 2
+            <textarea rows="4" data-path="about.paragraphs.1"></textarea>
+          </label>
+        </section>
+
+        <section class="panel" id="projects">
+          <div class="panel-heading">
+            <h2>Work Area</h2>
+            <button class="ghost-button" type="button" data-add-project>Add Project</button>
+          </div>
+          <div class="project-list" data-projects></div>
+        </section>
+
+        <section class="panel" id="services">
+          <div class="panel-heading">
+            <h2>Services</h2>
+            <button class="ghost-button" type="button" data-add-service>Add Service</button>
+          </div>
+          <div class="service-list" data-services></div>
+        </section>
+
+        <section class="panel" id="contact">
+          <h2>Contact Details</h2>
+          <div class="field-grid">
+            <label>
+              Email
+              <input data-path="site.email" />
+            </label>
+            <label>
+              WhatsApp number
+              <input data-path="site.whatsapp" />
+            </label>
+            <label>
+              WhatsApp link
+              <input data-path="site.whatsappUrl" />
+            </label>
+            <label>
+              Instagram handle
+              <input data-path="site.instagram" />
+            </label>
+            <label>
+              Instagram link
+              <input data-path="site.instagramUrl" />
+            </label>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <template data-project-template>
+      <article class="edit-card">
+        <div class="edit-card-top">
+          <h3>Project</h3>
+          <button class="danger-button" type="button" data-remove-project>Remove</button>
+        </div>
+        <div class="field-grid">
+          <label>
+            Category
+            <select data-field="category">
+              <option value="web">Web</option>
+              <option value="design">Design</option>
+              <option value="video">Video</option>
+              <option value="cinema">Cinema</option>
+            </select>
+          </label>
+          <label>
+            Label
+            <input data-field="label" />
+          </label>
+          <label>
+            Title
+            <input data-field="title" />
+          </label>
+          <label>
+            Project link
+            <input data-field="link" placeholder="https://..." />
+          </label>
+          <label>
+            Button text
+            <input data-field="button" placeholder="Visit Project" />
+          </label>
+          <label>
+            Image path
+            <input data-field="image" placeholder="uploads/flyer.jpg" />
+          </label>
+        </div>
+        <label>
+          Description
+          <textarea rows="3" data-field="description"></textarea>
+        </label>
+        <label class="upload-box">
+          Upload image
+          <input type="file" accept="image/*" data-upload-project />
+        </label>
+      </article>
+    </template>
+
+    <template data-service-template>
+      <article class="edit-card">
+        <div class="edit-card-top">
+          <h3>Service</h3>
+          <button class="danger-button" type="button" data-remove-service>Remove</button>
+        </div>
+        <label>
+          Title
+          <input data-field="title" />
+        </label>
+        <label>
+          Description
+          <textarea rows="3" data-field="description"></textarea>
+        </label>
+      </article>
+    </template>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

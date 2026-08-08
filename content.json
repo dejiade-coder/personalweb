@@ -1,0 +1,140 @@
+{
+  "site": {
+    "name": "Adegbite Oladimeji",
+    "email": "fordimeji7@gmail.com",
+    "whatsapp": "08101469227",
+    "whatsappUrl": "https://wa.me/2348101469227",
+    "instagram": "@dmajorxtaweek",
+    "instagramUrl": "https://www.instagram.com/dmajorxtaweek/"
+  },
+  "hero": {
+    "eyebrow": "Creative designer / Web developer / Filmmaker",
+    "title": "Adegbite Oladimeji",
+    "lead": "I create visually striking digital experiences that help brands communicate clearly, connect deeply, and stand out across web, video, and social platforms.",
+    "primaryButton": "View My Work",
+    "secondaryButton": "Start a Project"
+  },
+  "about": {
+    "heading": "Creativity, strategy, and technology in one sharp workflow.",
+    "paragraphs": [
+      "I am Adegbite Oladimeji, a multidisciplinary creative with expertise in design, web development, video editing, cinematography, and digital media consulting.",
+      "My work sits at the intersection of creativity and technology. I help individuals, businesses, and brands build strong visual identities, engaging digital platforms, and content that captures attention with clarity, beauty, and impact."
+    ]
+  },
+  "services": [
+    {
+      "title": "Creative Design",
+      "description": "Brand visuals, campaign graphics, social content, and layouts that feel polished and intentional."
+    },
+    {
+      "title": "Web Development",
+      "description": "Responsive websites and digital experiences with clean structure, smooth interaction, and strong presentation."
+    },
+    {
+      "title": "Video Editing",
+      "description": "Sharp edits, pacing, color feel, motion, and storytelling for brand videos, events, reels, and campaigns."
+    },
+    {
+      "title": "Cinematography",
+      "description": "Clean visual capture for stories, events, products, and moments that deserve a cinematic finish."
+    },
+    {
+      "title": "Digital Media Consulting",
+      "description": "Content direction, platform strategy, and practical guidance for stronger digital presence and audience growth."
+    },
+    {
+      "title": "Brand Content Strategy",
+      "description": "Ideas, structure, and execution plans that help your message stay consistent across every channel."
+    }
+  ],
+  "projects": [
+    {
+      "category": "web",
+      "label": "Web Development",
+      "title": "Website Projects",
+      "description": "A grouped collection of live website projects built to present brands, organizations, and platforms clearly online.",
+      "link": "",
+      "button": "",
+      "image": "uploads/bethel-suite-front-b3319139.png",
+      "art": "web-art",
+      "galleryButton": "View web projects",
+      "galleryClose": "Hide web projects",
+      "gallery": [
+        {
+          "title": "BethelNG Website",
+          "image": "uploads/bethel-suite-front-b3319139.png",
+          "description": "Live website project for a Nigerian brand platform, built to present information clearly and professionally online.",
+          "link": "https://bethelng.com/",
+          "button": "Visit Project"
+        },
+        {
+          "title": "RCCG National Headquarters Website",
+          "image": "",
+          "description": "Official church website project for RCCG National Headquarters, The Throne of Grace, with pages for worship, media, giving, and connection.",
+          "link": "https://www.rccghq.org/",
+          "button": "Visit Project"
+        }
+      ]
+    },
+    {
+      "category": "design",
+      "label": "Creative Design",
+      "title": "Moren Bistro Flyer Designs",
+      "description": "A grouped flyer campaign for Moren Bistro, covering launch promotion, bookings, menu awareness, and direct food ordering.",
+      "link": "",
+      "button": "",
+      "image": "uploads/moren-bistro-grand-opening.jpg",
+      "art": "design-art",
+      "galleryButton": "View all flyers",
+      "galleryClose": "Hide flyers",
+      "gallery": [
+        {
+          "title": "Grand Opening Flyer",
+          "image": "uploads/moren-bistro-grand-opening.jpg",
+          "description": "Bold launch campaign design with strong food visuals and event details."
+        },
+        {
+          "title": "Book Us Flyer",
+          "image": "uploads/moren-bistro-book-us.jpg",
+          "description": "Location-focused booking flyer for live food sales activation."
+        },
+        {
+          "title": "Menu Flyer",
+          "image": "uploads/moren-bistro-menu.jpg",
+          "description": "Menu awareness design with clear ordering details and food categories."
+        }
+      ]
+    },
+    {
+      "category": "video",
+      "label": "Video Editing",
+      "title": "Video Projects",
+      "description": "A collection of edited video projects focused on pacing, storytelling, clean transitions, and strong audience engagement.",
+      "link": "",
+      "button": "",
+      "image": "https://img.youtube.com/vi/vqHyOXdZyqw/hqdefault.jpg",
+      "art": "video-art",
+      "galleryButton": "View video projects",
+      "galleryClose": "Hide video projects",
+      "gallery": [
+        {
+          "title": "YouTube Video Project",
+          "image": "https://img.youtube.com/vi/vqHyOXdZyqw/hqdefault.jpg",
+          "description": "Published video project showcasing editing flow, pacing, and digital storytelling for an online audience.",
+          "link": "https://www.youtube.com/watch?v=vqHyOXdZyqw&list=PLdvKFCQ2SNbNfG7ZYVMXaOKF0gngZo9PB&index=14&t=1s",
+          "button": "Watch Video"
+        }
+      ]
+    },
+    {
+      "category": "cinema",
+      "label": "Cinematography",
+      "title": "Event Highlight Film",
+      "description": "Visual storytelling built around atmosphere, details, movement, and memorable moments.",
+      "link": "",
+      "button": "",
+      "image": "",
+      "art": "cinema-art"
+    }
+  ]
+}
