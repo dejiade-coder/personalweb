@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Adegbite Oladimeji, a creative designer, web developer, video editor, cinematographer, and digital media consultant."
+    />
+    <title>Adegbite Oladimeji | Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Adegbite Oladimeji home">
+        <span>AO</span>
+        <strong>Adegbite Oladimeji</strong>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-band" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Creative designer / Web developer / Filmmaker</p>
+            <h1>Adegbite Oladimeji</h1>
+            <p class="hero-lead">
+              I create visually striking digital experiences that help brands communicate clearly,
+              connect deeply, and stand out across web, video, and social platforms.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#work">View My Work</a>
+              <a class="btn btn-ghost" href="#contact">Start a Project</a>
+            </div>
+            <div class="hero-stats" aria-label="Creative focus areas">
+              <span><strong>5+</strong> creative disciplines</span>
+              <span><strong>360</strong> media direction</span>
+              <span><strong>100%</strong> responsive web</span>
+            </div>
+          </div>
+
+          <div class="studio-visual portrait-visual reveal" aria-label="Portrait of Adegbite Oladimeji">
+            <img src="adegbite-oladimeji-portrait.png" alt="Adegbite Oladimeji portrait" />
+            <div class="portrait-glow"></div>
+            <div class="portrait-frame"></div>
+            <div class="visual-glass timeline">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="floating-chip chip-one">Design</div>
+            <div class="floating-chip chip-two">Web</div>
+            <div class="floating-chip chip-three">Cinema</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-band" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Creativity, strategy, and technology in one sharp workflow.</h2>
+        </div>
+        <div class="about-grid">
+          <p class="reveal">
+            I am Adegbite Oladimeji, a multidisciplinary creative with expertise in design,
+            web development, video editing, cinematography, and digital media consulting.
+          </p>
+          <p class="reveal">
+            My work sits at the intersection of creativity and technology. I help individuals,
+            businesses, and brands build strong visual identities, engaging digital platforms,
+            and content that captures attention with clarity, beauty, and impact.
+          </p>
+        </div>
+      </section>
+
+      <section class="services section-band" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Built for brands that need to look serious, modern, and memorable.</h2>
+        </div>
+        <div class="service-grid" data-services-list>
+          <article class="service-card reveal">
+            <span>01</span>
+            <h3>Creative Design</h3>
+            <p>Brand visuals, campaign graphics, social content, and layouts that feel polished and intentional.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>02</span>
+            <h3>Web Development</h3>
+            <p>Responsive websites and digital experiences with clean structure, smooth interaction, and strong presentation.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>03</span>
+            <h3>Video Editing</h3>
+            <p>Sharp edits, pacing, color feel, motion, and storytelling for brand videos, events, reels, and campaigns.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>04</span>
+            <h3>Cinematography</h3>
+            <p>Clean visual capture for stories, events, products, and moments that deserve a cinematic finish.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>05</span>
+            <h3>Digital Media Consulting</h3>
+            <p>Content direction, platform strategy, and practical guidance for stronger digital presence and audience growth.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>06</span>
+            <h3>Brand Content Strategy</h3>
+            <p>Ideas, structure, and execution plans that help your message stay consistent across every channel.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section-band" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Project directions ready for your real portfolio pieces.</h2>
+        </div>
+        <div class="filter-row reveal" role="list" aria-label="Portfolio filters">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="web">Web</button>
+          <button class="filter" type="button" data-filter="design">Design</button>
+          <button class="filter" type="button" data-filter="video">Video</button>
+          <button class="filter" type="button" data-filter="cinema">Cinema</button>
+        </div>
+        <div class="work-grid" data-work-list>
+          <article class="work-card reveal" data-category="web">
+            <div class="work-art image-art">
+              <img src="uploads/bethel-suite-front-b3319139.png" alt="BethelNG hotel project" />
+            </div>
+            <div>
+              <span>Web Development</span>
+              <h3>Website Projects</h3>
+              <p>A grouped collection of live website projects built to present brands, organizations, and platforms clearly online.</p>
+              <button class="work-accordion-toggle" type="button" aria-expanded="false" data-open-label="View web projects" data-close-label="Hide web projects">
+                <span>View web projects</span>
+                <strong>+</strong>
+              </button>
+              <div class="work-accordion-panel" hidden>
+                <div class="flyer-gallery">
+                  <figure class="flyer-item">
+                    <img src="uploads/bethel-suite-front-b3319139.png" alt="BethelNG website project" />
+                    <figcaption>
+                      <strong>BethelNG Website</strong>
+                      <span>Live website project for a Nigerian brand platform, built to present information clearly and professionally online.</span>
+                      <a class="work-link gallery-link" href="https://bethelng.com/" target="_blank" rel="noreferrer">Visit Project</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="flyer-item">
+                    <div class="site-thumb"><span>RNHW</span></div>
+                    <figcaption>
+                      <strong>RCCG National Headquarters Website</strong>
+                      <span>Official church website project for RCCG National Headquarters, The Throne of Grace, with pages for worship, media, giving, and connection.</span>
+                      <a class="work-link gallery-link" href="https://www.rccghq.org/" target="_blank" rel="noreferrer">Visit Project</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-category="design">
+            <div class="work-art image-art">
+              <img src="uploads/moren-bistro-grand-opening.jpg" alt="Moren Bistro grand opening flyer" />
+            </div>
+            <div>
+              <span>Creative Design</span>
+              <h3>Moren Bistro Flyer Designs</h3>
+              <p>A grouped flyer campaign for Moren Bistro, covering launch promotion, bookings, menu awareness, and direct food ordering.</p>
+              <button class="work-accordion-toggle" type="button" aria-expanded="false">
+                <span>View all flyers</span>
+                <strong>+</strong>
+              </button>
+              <div class="work-accordion-panel" hidden>
+                <div class="flyer-gallery">
+                  <figure class="flyer-item">
+                    <img src="uploads/moren-bistro-grand-opening.jpg" alt="Moren Bistro grand opening flyer" />
+                    <figcaption>
+                      <strong>Grand Opening Flyer</strong>
+                      <span>Bold launch campaign design with strong food visuals and event details.</span>
+                    </figcaption>
+                  </figure>
+                  <figure class="flyer-item">
+                    <img src="uploads/moren-bistro-book-us.jpg" alt="Moren Bistro booking flyer" />
+                    <figcaption>
+                      <strong>Book Us Flyer</strong>
+                      <span>Location-focused booking flyer for live food sales activation.</span>
+                    </figcaption>
+                  </figure>
+                  <figure class="flyer-item">
+                    <img src="uploads/moren-bistro-menu.jpg" alt="Moren Bistro menu flyer" />
+                    <figcaption>
+                      <strong>Menu Flyer</strong>
+                      <span>Menu awareness design with clear ordering details and food categories.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-category="video">
+            <div class="work-art image-art video-cover">
+              <img src="https://img.youtube.com/vi/vqHyOXdZyqw/hqdefault.jpg" alt="YouTube video project thumbnail" />
+            </div>
+            <div>
+              <span>Video Editing</span>
+              <h3>Video Projects</h3>
+              <p>A collection of edited video projects focused on pacing, storytelling, clean transitions, and strong audience engagement.</p>
+              <button class="work-accordion-toggle" type="button" aria-expanded="false" data-open-label="View video projects" data-close-label="Hide video projects">
+                <span>View video projects</span>
+                <strong>+</strong>
+              </button>
+              <div class="work-accordion-panel" hidden>
+                <div class="flyer-gallery">
+                  <figure class="flyer-item">
+                    <img src="https://img.youtube.com/vi/vqHyOXdZyqw/hqdefault.jpg" alt="YouTube video project thumbnail" />
+                    <figcaption>
+                      <strong>YouTube Video Project</strong>
+                      <span>Published video project showcasing editing flow, pacing, and digital storytelling for an online audience.</span>
+                      <a class="work-link gallery-link" href="https://www.youtube.com/watch?v=vqHyOXdZyqw&amp;list=PLdvKFCQ2SNbNfG7ZYVMXaOKF0gngZo9PB&amp;index=14&amp;t=1s" target="_blank" rel="noreferrer">Watch Video</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-category="cinema">
+            <div class="work-art cinema-art"></div>
+            <div>
+              <span>Cinematography</span>
+              <h3>Event Highlight Film</h3>
+              <p>Visual storytelling built around atmosphere, details, movement, and memorable moments.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process section-band" id="process">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Process</p>
+          <h2>A clear path from idea to finished experience.</h2>
+        </div>
+        <div class="process-line">
+          <article class="process-step reveal">
+            <span>01</span>
+            <h3>Discover</h3>
+            <p>We define the goal, audience, message, and creative direction.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>02</span>
+            <h3>Create</h3>
+            <p>I design, develop, shoot, or edit with focus on polish and purpose.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>03</span>
+            <h3>Refine</h3>
+            <p>We tune the details until the work feels sharp, clear, and complete.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>04</span>
+            <h3>Deliver</h3>
+            <p>You receive clean final assets that are ready to publish, present, or launch.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-band" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let us create something that makes your brand impossible to ignore.</h2>
+            <p>
+              Available for website projects, brand visuals, video editing, cinematography,
+              content planning, and digital media consulting.
+            </p>
+          </div>
+          <div class="contact-links" aria-label="Contact links">
+            <a class="contact-card" href="mailto:fordimeji7@gmail.com">
+              <span>Mail</span>
+              <strong>Email Me</strong>
+            </a>
+            <a class="contact-card" href="https://wa.me/2348101469227">
+              <span>WA</span>
+              <strong>WhatsApp Me</strong>
+            </a>
+            <a class="contact-card" href="https://www.instagram.com/dmajorxtaweek/">
+              <span>IG</span>
+              <strong>Instagram</strong>
+            </a>
+          </div>
+          <form class="contact-form" action="mailto:fordimeji7@gmail.com" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Project
+              <textarea name="project" placeholder="Tell me what you want to build" rows="4" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Adegbite Oladimeji. Creative visuals, websites, and digital media.</p>
+      <div>
+        <a href="mailto:fordimeji7@gmail.com">Email</a>
+        <a href="https://wa.me/2348101469227">WhatsApp</a>
+        <a href="https://www.instagram.com/dmajorxtaweek/">Instagram</a>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
